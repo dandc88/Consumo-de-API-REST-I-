@@ -1,6 +1,12 @@
 ## Proyecto basado en Apoyo Desafío evaluado - Consumo de API REST (I)
 
-En la carpeta "remote" de data esta la interfaz para el manejo de la api "https://api.openweathermap.org/data/2.5/" con la clave 000477936bfcd7a4b6c887a3a149a0a5.
+En la carpeta "remote" de data esta la interfaz para el manejo de la api. 
+
+Como es un repositorio público faltan los datos de:
+const val OPEN_WEATHER_KEY = ""
+const val OPEN_WEATHER_ENDPOINT = ""
+
+Yo utilice la segunda clave que nos proporciona el desafio. 
 
 Como en este punto no se estaba evaluando el uso de Room para guardar los datos que se obtienen con Retrofit, se pasan los  datos desde el HomeFragment al DetalsFragment a traves de bundle con un array. Se creó la funcion populateWeatherData(data: Array<String>) para mostrar los datos. 
 
