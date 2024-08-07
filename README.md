@@ -4,7 +4,7 @@ En la carpeta "remote" de data esta la interfaz para el manejo de la api.
 
 Como es un repositorio público faltan los datos de:
 const val OPEN_WEATHER_KEY = ""
-const val OPEN_WEATHER_ENDPOINT = ""
+
 
 Yo utilice la segunda clave que nos proporciona el desafio. 
 
